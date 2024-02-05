@@ -1,8 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706910684
+::res://::1707169680
+DefaultMovementData.tres::Resource/PlayerMovementData::1566327544564580228::1706911984::0::1::::<><>::res://PlayerMovementData.gd
+FasterMovementData.tres::Resource/PlayerMovementData::49266970398547106::1706912544::0::1::::<><>::res://PlayerMovementData.gd
 icon.svg::CompressedTexture2D::2563995049807584151::1702329692::1702330046::1::::<><>::
-player.gd::GDScript::-1::1702676311::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1706913010::0::1::::<>CharacterBody2D<>::
 player.png::CompressedTexture2D::3004966510333471291::1702592243::1702592243::1::::<><>::
-player.tscn::PackedScene::3965823842062597271::1702676368::0::1::::<><>::res://player.gd<>uid://bi2vmhpvi5kf0::::res://player.png
+player.tscn::PackedScene::3965823842062597271::1706913029::0::1::::<><>::res://player.gd<>uid://dkbsuwamw3e65::::res://SlowMovementData.tres<>uid://bi2vmhpvi5kf0::::res://player.png
+PlayerMovementData.gd::GDScript::-1::1706912843::0::1::::PlayerMovementData<>Resource<>::
+SlowMovementData.tres::Resource/PlayerMovementData::7864344643051014924::1706912892::0::1::::<><>::res://PlayerMovementData.gd
 world.gd::GDScript::-1::1702675894::0::1::::<>Node2D<>::
-world.tscn::PackedScene::7170104587520788428::1702676475::0::1::::<><>::res://world.gd<>uid://bwrcslni1koff::::res://player.tscn
+world.tscn::PackedScene::7170104587520788428::1706913062::0::1::::<><>::res://world.gd<>uid://bwrcslni1koff::::res://player.tscn

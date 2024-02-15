@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://dafitsxpjmx0o"]
+[gd_scene load_steps=6 format=3 uid="uid://dafitsxpjmx0o"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_j7tae"]
 [ext_resource type="PackedScene" uid="uid://bwrcslni1koff" path="res://player.tscn" id="2_bygl7"]
 [ext_resource type="Resource" uid="uid://wk0gk2kfk0pc" path="res://DefaultMovementData.tres" id="3_jr6j0"]
+[ext_resource type="PackedScene" uid="uid://b2da1byhes3so" path="res://spikes.tscn" id="4_jjem7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ueq1d"]
 size = Vector2(24, 74)
@@ -11,6 +12,7 @@ size = Vector2(24, 74)
 script = ExtResource("1_j7tae")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_mask = 0
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2(0, 8)
@@ -23,6 +25,7 @@ position = Vector2(88, 88)
 movement_data = ExtResource("3_jr6j0")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
+collision_mask = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
 position = Vector2(244, 35)
@@ -33,3 +36,9 @@ offset_left = 232.0
 offset_top = -8.0
 offset_right = 256.0
 offset_bottom = 72.0
+
+[node name="Spikes" parent="." instance=ExtResource("4_jjem7")]
+position = Vector2(176, 112)
+
+[node name="Spikes2" parent="." instance=ExtResource("4_jjem7")]
+position = Vector2(232, 120)

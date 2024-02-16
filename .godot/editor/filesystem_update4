@@ -1,5 +1,6 @@
-res://spikes.tscn
-res://player.tscn
+res://level_completed.tscn
 res://world.tscn
+res://player.tscn
+res://spikes.tscn
 res://hazard_area.tscn
-res://player.gd
+res://heart.tscn

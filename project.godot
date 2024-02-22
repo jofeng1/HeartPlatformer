@@ -10,13 +10,15 @@ config_version=5
 
 [application]
 
-config/name="HeartPlatformerRepo"
+config/name="Heart Platformer"
+run/main_scene="res://level_one.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Events="*res://Events.gd"
+LevelTransition="*res://level_transition.tscn"
 
 [display]
 

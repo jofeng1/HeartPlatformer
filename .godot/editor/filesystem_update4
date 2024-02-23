@@ -4,3 +4,5 @@ res://world.tscn
 res://level_one.tscn
 res://level_two.tscn
 res://level_transition.tscn
+res://start_menu.tscn
+res://start_menu.gd
